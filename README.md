@@ -1,5 +1,5 @@
 # SMSPortal Client
-A PHP client for sending SMS messages via SMSPortal
+A PHP client for sending SMS messages from your Laravel project
 
 ## About
 [SMSPortal](https://smsportal.com) is a popular business communications provider offering a bulk SMS messaging service through their intuitive web interface and API. This package is a PHP client for Laravel allowing you to send SMS messages from your Laravel project.
@@ -9,7 +9,7 @@ To send bulk SMS, you need a SMSPortal account and SMS credits. You can register
 
 ## Dependencies
 1.	PHP 7.2 +
-2.	[GuzzleHttp Client]( https://docs.guzzlephp.org)
+2.	[guzzlehttp/guzzle]( https://docs.guzzlephp.org)
 
 ## Installation
 1.	You can install this package via composer using:
