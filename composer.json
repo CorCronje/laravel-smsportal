@@ -14,7 +14,8 @@
                 "CorCronje\\LaravelSmsPortal\\SmsPortalServiceProvider"
             ],
             "aliases": {
-                "SmsPortal": "CorCronje\\LaravelSmsPortal\\Facades\\SmsPortal"
+                "Client": "CorCronje\\LaravelSmsPortal\\Facades\\Client",
+                "Message": "CorCronje\\LaravelSmsPortal\\Facades\\Message"
             }
         }
     },
