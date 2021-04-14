@@ -1,0 +1,33 @@
+{
+    "name": "corcronje/laravel-smsportal",
+    "description": "Send text messages via SmsPortal",
+    "type": "library",
+    "require": {
+        "corcronje/smsportal": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.17"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CorCronje\\LaravelSmsPortal\\SmsPortalServiceProvider"
+            ],
+            "aliases": {
+                "SmsPortal": "CorCronje\\LaravelSmsPortal\\Facades\\SmsPortal"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "CorCronje\\LaravelSmsPortal\\" : "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cor Cronje",
+            "email": "cronje.cor@gmail.com"
+        }
+    ]
+}
